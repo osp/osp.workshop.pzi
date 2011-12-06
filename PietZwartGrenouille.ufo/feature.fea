@@ -1,0 +1,9 @@
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple,  ,  ,  ;
+
+} GDEF;
+
